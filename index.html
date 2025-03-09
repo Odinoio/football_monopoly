@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Футбольная Монополия</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Футбольная Монополия</h1>
+  <div id="game">
+    <div id="board"></div>
+    <div id="controls">
+      <button id="rollDice">Бросить кубик</button>
+      <button id="endTurn" disabled>Завершить ход</button>
+      <p id="diceResult"></p>
+      <p id="playerInfo"></p>
+      <div id="playerStats"></div>
+    </div>
+  </div>
+  <!-- Аудио для звуков -->
+  <audio id="diceSound" src="sounds/dice.mp3"></audio>
+  <audio id="buySound" src="sounds/buy.mp3"></audio>
+  <audio id="rentSound" src="sounds/rent.mp3"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
